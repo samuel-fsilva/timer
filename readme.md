@@ -46,7 +46,7 @@ cd timer
 Example:
 
 - Download and unzip or clone the project using git into a folder
-- Open the timer folder, then `index.html` in your browser
+- Open the folder named `timer`, then open `index.html` in your browser
 - Enjoy!
 
 ---
@@ -77,7 +77,8 @@ timer/
 
 - [ ] Add end timer notifications functionality
 - [ ] Improve UI with themes (Light/Dark)
-- [ ] Add the possibility to turn the timer into a stopwatch 
+- [ ] Add the possibility to turn the timer into a stopwatch
+- [ ] Mobile version 
 
 ---
 
