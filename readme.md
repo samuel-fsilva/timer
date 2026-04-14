@@ -8,6 +8,7 @@
 
 
 ![Preview](./assets/images/screenshots/preview.png)
+🔗 **Live Demo:** https://samuel-fsilva.github.io/timer/
 
 ---
 
