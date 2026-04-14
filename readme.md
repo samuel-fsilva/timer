@@ -1,4 +1,4 @@
-# 🌐 Chronometer
+# 🌐 Timer
 
 > A simple, clean, and responsive timer web application designed for ease of use and efficiency. This project provides a user-friendly interface for tracking time, whether you're studying, working, exercising, or managing daily tasks.
 
