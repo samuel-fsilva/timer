@@ -1,0 +1,128 @@
+body {
+  background: radial-gradient(circle, #111, #000);
+  width: 100dvw;
+  min-width: 900px;
+  height: 100dvh;
+  min-height: 450px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tempBody {
+  color: rgb(50, 248, 0);
+  font-family: "digital";
+  width: 400px;
+  height: 400px;
+  backdrop-filter: blur(50px);
+  background: radial-gradient(
+    circle,
+    rgba(128, 128, 128, 0.05),
+    rgba(128, 128, 128, 0.15)
+  );
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid #333333;
+  display: grid;
+  grid-template-columns: 120px 20px 120px 20px 120px;
+  grid-template-rows: 120px 20px 120px 20px 120px;
+  overflow: hidden;
+  box-shadow: rgba(141, 255, 95, 0.1) 0px 0px 29px 0px;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#tempBody input {
+  grid-row: 3;
+  font-size: 90px;
+  background: transparent;
+  border: transparent;
+  outline: none;
+  color: #32f800;
+  font-family: "digital";
+  text-align: center;
+  transition: 0.2s;
+  box-shadow: rgba(190, 255, 164, 0) 0px 5px 23px 0px;
+}
+#tempBody p {
+  grid-row: 3;
+  font-size: 90px;
+  margin: 0;
+}
+#buttonBox {
+  grid-row: 5;
+  grid-column: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#buttonBox button {
+  width: 45%;
+  height: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 1px solid rgba(90, 253, 49, 0.561);
+  transition: 0.2s;
+  background: rgba(90, 253, 49, 0.055);
+}
+#buttonBox button:hover {
+  border-color: white !important;
+  background: rgba(255, 255, 255, 0.055);
+}
+#buttonBox button:active {
+  filter: brightness(0.9);
+  position: relative;
+  top: 2px;
+}
+button img {
+  width: 13px;
+  position: relative;
+  top: 2px;
+}
+button:hover {
+  cursor: pointer;
+}
+#pause {
+  border: 1px solid rgb(255, 0, 0, 0.56) !important;
+  background: rgb(255, 0, 0, 0.055) !important;
+}
+#exitButton {
+  float: right;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid transparent;
+  color: #aaa;
+  font-size: 32px;
+  transform: rotate(45deg);
+  padding: 0;
+  transition: 0.2s;
+}
+#exitButton:hover {
+  color: #ccc;
+  scale: 0.85;
+}
+#notif-inputDiv {
+  display: grid;
+  grid-template-columns: 5fr 1fr 5fr;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#notif-inputDiv p {
+  display: inline;
+  color: #fff;
+}
+#notif-inputDiv input {
+  display: inline;
+  min-width: 100px;
+}

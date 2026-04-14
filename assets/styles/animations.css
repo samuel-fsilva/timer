@@ -1,0 +1,57 @@
+@keyframes vibration {
+  0% {
+    left: 0px;
+  }
+  20% {
+    left: 2px;
+  }
+  40% {
+    left: -2px;
+  }
+  60% {
+    left: 2px;
+  }
+  80% {
+    left: -2px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@keyframes pulsation {
+  0% {
+    filter: brightness(80%);
+    box-shadow: rgba(190, 255, 164, 0.2) 0px 5px 23px 0px;
+  }
+  25% {
+    filter: brightness(120%);
+    box-shadow: rgba(190, 255, 164, 0.2) 0px 7px 29px 0px;
+  }
+  50% {
+    filter: brightness(80%);
+    box-shadow: rgba(190, 255, 164, 0.2) 0px 5px 23px 0px;
+  }
+  75% {
+    filter: brightness(120%);
+    box-shadow: rgba(190, 255, 164, 0.2) 0px 7px 29px 0px;
+  }
+  100% {
+    filter: brightness(100%);
+    box-shadow: rgba(141, 255, 95, 0.1) 0px 0px 29px 0px;
+  }
+}
+.vibrating {
+  animation: vibration 0.2s 100 both, pulsation 10s 2 both;
+  animation-play-state: initial;
+}
+@keyframes fade-in {
+  0% {
+    scale: 0.7;
+  }
+  100% {
+    scale: 1;
+  }
+}
+.fading-in {
+  animation: fade-in 0.2s;
+}
